@@ -41,9 +41,9 @@ function BusinessAndPortfolio() {
       {data.map((data) => {
         return (
           <BusinessItems
-            id={data.id}
+            key={data.id}
             title={data.question}
-            children={data.answer}
+            children={[data.answer]}
           ></BusinessItems>
         );
       })}

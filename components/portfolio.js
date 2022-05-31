@@ -53,6 +53,7 @@ function Portfolio() {
             {socialLinks.map((socialLinks) => {
               return (
                 <SocialLink
+                  key=""
                   twitter={socialLinks.twitter}
                   instagram={socialLinks.instagram}
                   linkedin={socialLinks.linkedin}
