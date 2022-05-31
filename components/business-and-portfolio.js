@@ -41,7 +41,7 @@ function BusinessAndPortfolio() {
       {data.map((data) => {
         return (
           <BusinessItems
-            id={data.id}
+            key={data.id}
             title={data.question}
             ans={data.answer}
           ></BusinessItems>
