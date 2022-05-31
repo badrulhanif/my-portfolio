@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function BusinessItems(props) {
   const [isOpen, setIsOpen] = useState(false);
-  const { id, title, ans } = props;
+  const { title, ans } = props;
 
   return (
     <>
