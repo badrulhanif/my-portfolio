@@ -51,14 +51,16 @@ function Portfolio() {
             </h3>
             {socialLinks.map((socialLinks) => {
               return (
-                <SocialLink
-                  key=""
-                  twitter={socialLinks.twitter}
-                  instagram={socialLinks.instagram}
-                  linkedin={socialLinks.linkedin}
-                  behance={socialLinks.behance}
-                  github={socialLinks.github}
-                />
+                <div className="flex ml-3.5 md:ml-0">
+                  <SocialLink
+                    key=""
+                    twitter={socialLinks.twitter}
+                    instagram={socialLinks.instagram}
+                    linkedin={socialLinks.linkedin}
+                    behance={socialLinks.behance}
+                    github={socialLinks.github}
+                  />
+                </div>
               );
             })}
             <h3 className="flex justify-center md:justify-start mt-5 text-white/[0.7]">
