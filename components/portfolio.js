@@ -21,13 +21,15 @@ function Portfolio() {
       <div className="flex bg-black/[0.6] rounded-2xl shadow-lg p-10 text-white">
         <div className="flex flex-col md:flex-row max-w-3xl md:divide-x-4 divide-white/[0.3] divide-dotted">
           <div className="w-full pr-0 md:pr-8 md:w-1/2">
-            <Image
-              src={profileImage}
-              alt="Profile Image"
-              width={150}
-              height={150}
-              className="rounded-full"
-            />
+            <div className="flex justify-center md:justify-start">
+              <Image
+                src={profileImage}
+                alt="Profile Image"
+                width={150}
+                height={150}
+                className="rounded-full"
+              />
+            </div>
             <h1 className="flex justify-center pt-2 font-sans text-4xl font-semibold md:justify-start">
               Badrul Hanif
             </h1>
@@ -49,18 +51,24 @@ function Portfolio() {
             </h3>
             {socialLinks.map((socialLinks) => {
               return (
-                <SocialLink
-                  key=""
-                  twitter={socialLinks.twitter}
-                  instagram={socialLinks.instagram}
-                  linkedin={socialLinks.linkedin}
-                  behance={socialLinks.behance}
-                  github={socialLinks.github}
-                />
+                <div className="flex ml-3.5 md:ml-0">
+                  <SocialLink
+                    key=""
+                    twitter={socialLinks.twitter}
+                    instagram={socialLinks.instagram}
+                    linkedin={socialLinks.linkedin}
+                    behance={socialLinks.behance}
+                    github={socialLinks.github}
+                  />
+                </div>
               );
             })}
-            <h3 className="mt-5 text-white/[0.7]">Business and Products</h3>
-            <BusinessAndPortfolio />
+            <h3 className="flex justify-center md:justify-start mt-5 text-white/[0.7]">
+              Business and Products
+            </h3>
+            <div>
+              <BusinessAndPortfolio />
+            </div>
           </div>
         </div>
       </div>
