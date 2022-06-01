@@ -17,8 +17,8 @@ function Portfolio() {
   ];
 
   return (
-    <div className="flex items-center justify-center w-screen h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500">
-      <div className="bg-black/[0.6] rounded-2xl shadow-lg p-10 text-white">
+    <div className="flex items-center justify-center min-h-screen bg-cover bg-gradient-to-r from-violet-500 to-fuchsia-500">
+      <div className="flex bg-black/[0.6] rounded-2xl shadow-lg p-10 text-white">
         <div className="flex max-w-3xl divide-x-4 divide-white/[0.3] divide-dotted">
           <div className="w-full pr-8 md:w-1/2">
             <Image
@@ -31,20 +31,16 @@ function Portfolio() {
             <h1 className="pt-2 font-sans text-4xl font-semibold">
               Badrul Hanif
             </h1>
-            <h3 className="pb-3 text-lg font-medium text-slate-300/[0.5]">
+            <h3 className="pb-5 text-lg font-medium text-slate-300/[0.5]">
               AKA 0xpachio
             </h3>
-            <div className="flex items-center gap-2 pb-3 text-white/[0.7]">
+            <div className="flex items-center gap-2 pb-5 text-white/[0.7]">
               <Plus /> Manager of Fancy Fox Club
             </div>
             <p className="text-white/[0.7]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
-              massa a nunc venenatis auctor.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Morbi ut massa a nunc venenatis
-              auctor.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Morbi ut massa a nunc venenatis auctor.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Morbi ut massa a nunc venenatis
-              auctor.
+              Self-taught developer and UI/UX designer with over two years
+              experience in blockchain includes crypto and NFTs. Using Figma,
+              React and Next for my works.
             </p>
           </div>
           {/* <div className="divide-x">f</div> */}
@@ -69,7 +65,7 @@ function Portfolio() {
       </div>
       <div className="absolute inset-x-0 bottom-0 h-20 flex items-center gap-1 justify-center text-white/[0.8]">
         <Mail />
-        hanifbaharuddin@gmail.com
+        hanifbaharuddin+works@gmail.com
       </div>
     </div>
   );
