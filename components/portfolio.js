@@ -43,7 +43,6 @@ function Portfolio() {
               React and Next for my works.
             </p>
           </div>
-          {/* <div className="divide-x">f</div> */}
           <div className="w-full pl-8 md:w-1/2">
             <h3 className="text-white/[0.7]">Social Links</h3>
             {socialLinks.map((socialLinks) => {
