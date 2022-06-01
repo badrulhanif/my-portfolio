@@ -53,7 +53,6 @@ function Portfolio() {
               return (
                 <div className="flex ml-3.5 md:ml-0">
                   <SocialLink
-                    key=""
                     twitter={socialLinks.twitter}
                     instagram={socialLinks.instagram}
                     linkedin={socialLinks.linkedin}
