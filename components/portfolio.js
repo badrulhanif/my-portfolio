@@ -17,11 +17,11 @@ function Portfolio() {
   ];
 
   return (
-    <div className="flex items-center justify-center min-h-screen p-3 bg-cover bg-gradient-to-r from-violet-500 to-fuchsia-500">
+    <div className="flex items-center justify-center flex-col md:flex-row min-h-screen p-3 bg-cover bg-gradient-to-r from-violet-500 to-fuchsia-500">
       <div className="flex bg-black/[0.6] rounded-2xl shadow-lg p-10 text-white">
         <div className="flex flex-col md:flex-row max-w-3xl md:divide-x-4 divide-white/[0.3] divide-dotted">
           <div className="w-full pr-0 md:pr-8 md:w-1/2">
-            <div className="flex justify-center md:justify-start">
+            <div className="box-border flex justify-center md:justify-start">
               <Image
                 src={profileImage}
                 alt="Profile Image"
@@ -71,7 +71,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 h-20 flex items-center gap-1 justify-center text-white/[0.8]">
+      <div className="relative md:absolute bottom-0 h-20 gap-1 flex items-center justify-center text-white/[0.8]">
         <Mail />
         hanifbaharuddin+works@gmail.com
       </div>
