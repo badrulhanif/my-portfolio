@@ -21,7 +21,10 @@ function HomePage() {
           property="og:description"
           content="Professional profile of Badrul Hanif. You can refer here to see my recent works."
         />
-        <meta property="og:image" content="" />
+        <meta
+          property="og:image"
+          content="https://my-portfolio-ashy-xi.vercel.app/banner.png"
+        />
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -37,7 +40,10 @@ function HomePage() {
           name="twitter:description"
           content="Professional profile of Badrul Hanif. You can refer here to see my recent works."
         />
-        <meta name="twitter:image" content="" />
+        <meta
+          name="twitter:image"
+          content="https://my-portfolio-ashy-xi.vercel.app/banner.png"
+        />
       </Head>
       <Portfolio />
     </>
