@@ -51,7 +51,7 @@ function Portfolio() {
             </h3>
             {socialLinks.map((socialLinks) => {
               return (
-                <div className="flex ml-3.5 md:ml-0" key="">
+                <div className="flex ml-12 md:ml-0" key="">
                   <SocialLink
                     twitter={socialLinks.twitter}
                     instagram={socialLinks.instagram}
