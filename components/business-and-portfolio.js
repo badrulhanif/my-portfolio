@@ -13,7 +13,7 @@ function BusinessAndPortfolio() {
       question: "NFT Collections",
       answer: (
         <ul>
-          <li className="hover:text-pink-400 visited:text-white">
+          <li className="hover:text-pink-400">
             <a
               href="https://app.pentas.io/user/fancyfoxclub"
               target="_blank"
@@ -22,7 +22,7 @@ function BusinessAndPortfolio() {
               Fancy Fox Club
             </a>
           </li>
-          <li className="hover:text-pink-400 visited:text-white">
+          <li className="hover:text-pink-400">
             <a
               href="https://app.pentas.io/user/0xpachio"
               target="_blank"
