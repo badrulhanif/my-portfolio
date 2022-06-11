@@ -13,7 +13,7 @@ function HomePage() {
         {/* Facebook Meta Tags */}
         <meta
           property="og:url"
-          content="https://my-portfolio-ashy-xi.vercel.app/"
+          content="https://my-portfolio-seven-steel.vercel.app/"
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Badrul Hanif" />
@@ -23,7 +23,7 @@ function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://my-portfolio-ashy-xi.vercel.app/banner.png"
+          content="https://my-portfolio-seven-steel.vercel.app/banner.png"
         />
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -33,7 +33,7 @@ function HomePage() {
         />
         <meta
           property="twitter:url"
-          content="https://my-portfolio-ashy-xi.vercel.app/"
+          content="https://my-portfolio-seven-steel.vercel.app/"
         />
         <meta name="twitter:title" content="Badrul Hanif" />
         <meta
@@ -42,7 +42,7 @@ function HomePage() {
         />
         <meta
           name="twitter:image"
-          content="https://my-portfolio-ashy-xi.vercel.app/banner.png"
+          content="https://my-portfolio-seven-steel.vercel.app/banner.png"
         />
       </Head>
       <Portfolio />
