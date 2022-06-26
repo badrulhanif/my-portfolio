@@ -5,8 +5,19 @@ function BusinessAndPortfolio() {
     {
       id: 1,
       question: "GTFOL",
-      answer:
-        "Unfortunately, it is still on localhost at the moment. Refer to my repo above for more open-source projects.",
+      answer: (
+        <ul>
+          <li className="hover:text-pink-400">
+            <a
+              href="https://nft-sales-bot.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              NFT Sales Bot
+            </a>
+          </li>
+        </ul>
+      ),
     },
     {
       id: 2,
