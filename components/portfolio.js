@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImage from "../public/Images/Mrpachio.png";
+import profileImage from "../public/Images/badrulhanif.png";
 import SocialLink from "./social-links";
 import BusinessAndPortfolio from "./business-and-portfolio";
 import Mail from "../components/icons/mail";
@@ -33,17 +33,20 @@ function Portfolio() {
             <h1 className="flex justify-center pt-2 font-sans text-4xl font-semibold md:justify-start">
               Badrul Hanif
             </h1>
-            <h3 className="flex justify-center md:justify-start pb-5 text-lg font-medium text-slate-300/[0.5]">
-              AKA 0xpachio
-            </h3>
-            <div className="flex items-center gap-2 pb-5 text-white/[0.7]">
-              <Plus /> Manager of Fancy Fox Club
+            <div className="flex items-center gap-2 pt-5 text-white/[0.7]">
+              <Plus /> Web developer & UI/UX designer
             </div>
-            <p className="flex justify-center md:justify-start text-center md:text-left text-white/[0.7]">
-              Self-taught developer and UI/UX designer with over two years
-              experience in blockchain includes crypto and NFTs. Using Figma,
-              React and Next for my works.
+            <div className="flex items-center gap-2 pb-5 text-white/[0.7]">
+              <Plus /> Based in Johor, Malaysia
+            </div>
+            <p className="flex justify-center font-bold text-center text-white md:justify-start md:text-left">
+              Working Experience:
             </p>
+            <ul>
+            <li className="flex justify-center md:justify-start text-center md:text-left text-white/[0.7]">
+              Graphic Designer, PentasIO (Freelance) - Produced social media posters and website banner.
+            </li>
+            </ul>
           </div>
           <div className="w-full pl-0 mt-5 md:mt-0 md:pl-8 md:w-1/2">
             <h3 className="flex justify-center md:justify-start text-white/[0.7]">
