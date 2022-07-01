@@ -8,7 +8,7 @@ import Plus from "./icons/plus";
 function Portfolio() {
   const socialLinks = [
     {
-      twitter: "https://twitter.com/0xpachio",
+      twitter: "https://twitter.com/badrulhanif_",
       instagram: "https://www.instagram.com/_badrulhanif/",
       linkedin: "https://www.linkedin.com/in/badrul-hanif-b01471196/",
       behance: "https://www.behance.net/badrulhanif",
