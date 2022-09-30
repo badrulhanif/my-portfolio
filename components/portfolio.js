@@ -9,7 +9,7 @@ function Portfolio() {
   const socialLinks = [
     {
       twitter: "https://twitter.com/badrulhanif_",
-      instagram: "https://www.instagram.com/_badrulhanif/",
+      instagram: "https://www.instagram.com/bbadrulhanif/",
       linkedin: "https://www.linkedin.com/in/badrul-hanif-b01471196/",
       behance: "https://www.behance.net/badrulhanif",
       github: "https://github.com/badrulhanif",
