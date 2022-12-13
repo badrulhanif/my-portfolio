@@ -34,7 +34,7 @@ function Portfolio() {
               Badrul Hanif
             </h1>
             <div className="flex items-center gap-2 pt-5 text-white/[0.7]">
-              <Plus /> Web developer & UI/UX designer
+              <Plus /> Full Stack Designer
             </div>
             <div className="flex items-center gap-2 pb-5 text-white/[0.7]">
               <Plus /> Based in Johor, Malaysia
