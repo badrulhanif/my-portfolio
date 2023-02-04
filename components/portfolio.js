@@ -37,7 +37,7 @@ function Portfolio() {
               <Plus /> Full Stack Designer
             </div>
             <div className="flex items-center gap-2 pb-5 text-white/[0.7]">
-              <Plus /> Based in Johor, Malaysia
+              <Plus /> Based in Shah Alam, Selangor
             </div>
             <p className="flex justify-center font-bold text-center text-white md:justify-start md:text-left">
               Working Experience:
